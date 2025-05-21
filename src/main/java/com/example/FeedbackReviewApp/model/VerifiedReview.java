@@ -10,5 +10,5 @@ public class VerifiedReview extends Review{
     public String displayReview() {
         return "Verified Review for " + getVendorName() + " by " + getReviewerName() + ": " + getFeedback() + " (Rating: " + getRating() + ") [Verified]";
     }
-    
+
 }
